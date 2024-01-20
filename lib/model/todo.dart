@@ -10,6 +10,7 @@ class ToDo {
   });
 
   static List<ToDo> todoList() {
+    // we adding the item in this only
     return [
       ToDo(id: '01', todoText: 'Morning Excercise', isDone: true),
       ToDo(id: '02', todoText: 'Buy Groceries', isDone: true),
